@@ -7,10 +7,10 @@ import EtherVolume from './FinanceDashboard/EtherVolume'
 function FinanceDashboard() {
     return (
         <div>
-            <EtherMarketcap />
-            <EtherPrice />
-            <EtherVolume />
-            <EtherChart />
+                <EtherMarketcap />
+                <EtherPrice />
+                <EtherVolume />
+                <EtherChart />
         </div>
     )
 }
