@@ -3,6 +3,7 @@ import './App.css';
 import NavigationBar from './Components/NavigationBar'
 import FinanceDashboard from './Components/FinanceDashboard'
 import NetworkDashboard from './Components/NetworkDashboard'
+import ContactForm from './Components/ContactForm'
 import Footer from './Components/Footer'
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 
@@ -22,6 +23,7 @@ function App() {
           </Route>
           <Route path="/contact">
             <NavigationBar />
+            <ContactForm />
             <Footer />
           </Route>
         </Switch>
