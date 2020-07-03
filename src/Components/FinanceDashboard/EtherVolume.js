@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Card from 'react-bootstrap/Card'
 
 class EtherVolume extends Component {
     constructor(props) {
@@ -20,7 +21,15 @@ class EtherVolume extends Component {
     render() {
         return (
             <div>
-                {this.state.ethereumVolume}
+                <Card style={{ width: '18rem' }}>
+                    <Card.Body>
+                        <Card.Title>ETH Total Daily Volume</Card.Title>
+                        <Card.Subtitle className="mb-2 text-muted">{this.state.ethereumVolume}</Card.Subtitle>
+                        <Card.Text>
+                        The total daily volume of ETH traded on all exchanges.
+                        </Card.Text>
+                    </Card.Body>
+                </Card>
             </div>
         )
     }

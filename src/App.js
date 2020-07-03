@@ -10,8 +10,6 @@ function App() {
     <div className="App">
       <NavigationBar />
       <FinanceDashboard />
-      <NetworkDashboard />
-      <Footer />
     </div>
   );
 }

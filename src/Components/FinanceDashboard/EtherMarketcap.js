@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Card from 'react-bootstrap/Card'
 
 class EtherMarketcap extends Component {
     constructor(props) {
@@ -20,7 +21,15 @@ class EtherMarketcap extends Component {
     render() {
         return (
             <div>
-                {this.state.ethereumMarketcap}
+                <Card style={{ width: '18rem' }}>
+                    <Card.Body>
+                        <Card.Title>ETH Market capitalisation</Card.Title>
+                        <Card.Subtitle className="mb-2 text-muted">{this.state.ethereumMarketcap}</Card.Subtitle>
+                        <Card.Text>
+                        The total value of all ETH.
+                        </Card.Text>
+                    </Card.Body>
+                </Card>
             </div>
         )
     }
