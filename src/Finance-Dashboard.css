@@ -1,0 +1,26 @@
+.finance-dashboard-container {
+    padding: 40px;
+}
+
+.finance-dashboard-cards {
+    display: flex;
+    flex-direction: row;
+    padding:10px;
+}
+
+.card-marketcap {
+    flex:1;
+}
+
+.card-price {
+    flex:1;
+}
+
+.card-volume {
+    flex:1;
+}
+
+.finance-dashboard-chart {
+    display: flex;
+    flex-direction: row;
+}

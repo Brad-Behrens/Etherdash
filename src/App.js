@@ -14,6 +14,7 @@ function App() {
         <Switch>
           <Route path="/home">
             <NavigationBar />
+            <NetworkDashboard />
             <Footer />
           </Route>
           <Route path="/finance">

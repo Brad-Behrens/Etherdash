@@ -26,7 +26,7 @@ class EtherVolume extends Component {
                         <Card.Title>ETH Total Daily Volume</Card.Title>
                         <Card.Subtitle className="mb-2 text-muted">{this.state.ethereumVolume}</Card.Subtitle>
                         <Card.Text>
-                        The total daily volume of ETH traded on all exchanges.
+                        The total daily volume of ETH.
                         </Card.Text>
                     </Card.Body>
                 </Card>
